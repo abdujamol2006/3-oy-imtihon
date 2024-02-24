@@ -1,0 +1,37 @@
+.header-container,
+.header_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.header {
+  background: #014e56;
+}
+.header-container {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 515px;
+  padding: 75px 180px;
+}
+.header_logo {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 80px;
+}
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  gap: 40px;
+  letter-spacing: 0;
+  text-align: left;
+}
